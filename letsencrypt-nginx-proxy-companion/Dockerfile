@@ -4,6 +4,13 @@ LABEL org.freenas.interactive="false" \
       org.freenas.upgradeable="false" \
       org.freenas.expose-ports-at-host="true" \
       org.freenas.autostart="true" \
+      org.freenas.settings="[ 						                        \
+          {								                                    \
+              \"env\": \"NGINX_PROXY_CONTAINER\",					                              \
+              \"descr\": \"Name or id of the nginx-proxy container\",		\
+              \"optional\": true					                              \
+          }                                                                               \
+      ]"
       org.freenas.volumes="[						\
           {								\
               \"name\": \"/etc/nginx/certs\",					\
