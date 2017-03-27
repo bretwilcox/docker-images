@@ -1,3 +1,5 @@
+Version 1
+
 nginx-proxy sets up a container running nginx and [docker-gen][1].  docker-gen generates reverse proxy configs for nginx and reloads nginx when containers are started and stopped.
 
 See [Automated Nginx Reverse Proxy for Docker][2] for why you might want to use this.

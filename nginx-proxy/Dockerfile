@@ -1,6 +1,6 @@
 FROM jwilder/nginx-proxy:latest
-LABEL org.freenas.interactive="false" \ 
-      org.freenas.version="2.1" \
+LABEL org.freenas.interactive="false" \
+      org.freenas.version="1.4" \
       org.freenas.upgradeable="false" \
       org.freenas.expose-ports-at-host="true" \
       org.freenas.autostart="true" \
