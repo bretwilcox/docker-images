@@ -8,17 +8,17 @@ LABEL org.freenas.interactive="false" \
           {                                                                             \
               \"name\": \"/etc/nginx/certs\",                                           \
               \"descr\": \"Path to SSL certificates\",                                  \
-              \"readonly\": \"true\"                                                    \
+              \"readonly\": \"false\"                                                   \
           },                                                                            \
           {                                                                             \
               \"name\": \"/etc/nginx/vhost.d\",                                         \
               \"descr\": \"Path to host configurations\",                               \
-              \"readonly\": true                                                        \
+              \"readonly\": \"true\"                                                    \
           },                                                                            \
           {                                                                             \
               \"name\": \"/etc/nginx/htpasswd\",                                        \
               \"descr\": \"Path to htpasswd files named the same as the VIRTUAL_HOST\", \
-              \"readonly\": true                                                        \
+              \"readonly\": \"true\"                                                    \
           }                                                                             \
       ]"                                                                                \
       org.freenas.static-volumes="[                                                     \
