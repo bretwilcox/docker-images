@@ -16,7 +16,7 @@ LABEL org.freenas.interactive="false" \
               \"container_path\": \"/var/run/docker.sock\",				\
               \"readonly\": \"true\"					\
           }								\
-      ]"
+      ]"                                 \
       org.freenas.settings="[ 						                        \
           {								                                    \
               \"env\": \"NGINX_PROXY_CONTAINER\",					                              \
