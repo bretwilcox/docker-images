@@ -17,3 +17,10 @@ LABEL org.freenas.interactive="false" \
               \"readonly\": \"true\"					\
           }								\
       ]"
+      org.freenas.settings="[ 						                        \
+          {								                                    \
+              \"env\": \"NGINX_PROXY_CONTAINER\",					                              \
+              \"descr\": \"Name or id of the nginx-proxy container\",		\
+              \"optional\": true					                              \
+          }                                                                               \
+      ]"  
