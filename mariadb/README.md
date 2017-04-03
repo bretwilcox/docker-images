@@ -1,6 +1,6 @@
 # MariaDB
 
-This is a FreeNAS configuration of the officail MariaDB Docker container
+This is a FreeNAS configuration of the official MariaDB Docker container
 
 # About this Repo
 
